@@ -46,12 +46,15 @@ section div, section img {
 	background-image: url(../img/title-background.jpg);
 	background-size: cover;
 	border-top: 6px solid #4a4a4a;
+	height: 90%;
+	width: 100%;
 }
 #logo {
 	width: 60%;
 	max-width: 720px;
 	min-width: 320px;
 	height: auto;
+	padding: 0;
 }
 #title a img{
   width: 60px;
@@ -62,7 +65,6 @@ section div, section img {
   color: #fff;
   background-color: #4A4A4A;
 }
-
 #join {
 	background-color: #0DB2AA;
 }
