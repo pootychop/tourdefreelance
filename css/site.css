@@ -27,7 +27,6 @@ p {
 	font-size: 0.8em;
 }
 
-
 section {
 	display: -webkit-flex;
   display: flex;
@@ -46,8 +45,6 @@ section div, section img {
 	background-image: url(../img/title-background.jpg);
 	background-size: cover;
 	border-top: 6px solid #4a4a4a;
-	height: 90%;
-	width: 100%;
 }
 #logo {
 	width: 60%;
@@ -56,8 +53,12 @@ section div, section img {
 	height: auto;
 	padding: 0;
 }
+#title a {
+	width: 5%;
+	padding-bottom: 20px;
+}
 #title a img{
-  width: 60px;
+  width: 100%;
   height: auto;
 }
 
