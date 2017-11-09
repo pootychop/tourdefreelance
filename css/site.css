@@ -75,14 +75,15 @@ section {
   height: auto;
   padding: 0;
 }
-#about {
+#event {
 	background-color: #4A4A4A;
 }
 #explain {
-	background-image: url(../img/coffee-shops.jpg);
+	width:;
+/*	background-image: url(../img/coffee-shops.jpg);
 	background-repeat: no-repeat;
 	background-position: left;
-	background-size: cover;
+	background-size: cover;*/
 }
 #event, #join {
   color: #fff;
@@ -109,6 +110,14 @@ section {
 	}
 	#about, #join {
 		flex-direction: row;
+	}
+
+	#about {
+		background-image: url(../img/coffee-shops.jpg);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 54%;
+		justify-content: flex-end;
 	}
 
 	.text-block, section img {
