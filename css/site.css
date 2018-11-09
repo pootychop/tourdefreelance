@@ -57,6 +57,7 @@ section {
 #title {
 	background-image: url(../img/title-background.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	border-top: 6px solid #4a4a4a;
 }
 #logo {
